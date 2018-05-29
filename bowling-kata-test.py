@@ -1,9 +1,11 @@
 import unittest
+from bowling.game import Game
 
 class TestBowlingKata(unittest.TestCase):
 
     def testBowlingGameInstance(self):
-        self.assertFail()
+        game = Game()
+        self.assertIsNotNone(game)
 
 if __name__ == '__main__':
     unittest.main()
