@@ -6,7 +6,7 @@ install:
   - pip install codecov
 
 script:
-  - coverage run ./banking-kata-test.py
+  - coverage run ./bowling-kata-test.py
 
 after_success:
   - codecov
