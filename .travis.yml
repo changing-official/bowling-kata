@@ -6,7 +6,7 @@ install:
   - pip install codecov
 
 script:
-  - coverage run ./bowling-kata-test.py
+  - coverage run --omit="*_test.py*" src/game_test.py
 
 after_success:
   - codecov

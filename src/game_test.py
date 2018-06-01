@@ -1,7 +1,7 @@
 import unittest
 from bowling.game import Game
 
-class TestBowlingKata(unittest.TestCase):
+class TestGame(unittest.TestCase):
 
     @classmethod
     def setUp(self):
